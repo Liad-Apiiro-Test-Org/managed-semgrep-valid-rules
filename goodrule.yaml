@@ -1,0 +1,6 @@
+rules:
+  - id: valid-eval
+    pattern: eval(...)
+    message: avoid eval
+    languages: [python]
+    severity: WARNING
